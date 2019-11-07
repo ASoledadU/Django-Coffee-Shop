@@ -9,3 +9,4 @@ class Transaction(models.Model):
     coffee = models.ForeignKey(Coffee, on_delete=models.CASCADE)
     pre_tax = models.FloatField()
     tax = models.FloatField()
+    
